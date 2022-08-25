@@ -1,0 +1,63 @@
+.card {
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4.5px);
+  -webkit-backdrop-filter: blur(4.5px);
+  border-radius: 10px;
+  display: flex;
+  position: relative;
+  width: fit-content;
+  flex-direction: column;
+  padding: 0.25rem;
+  color: white;
+}
+
+.button {
+  background-color: #e0fbfc;
+  position: absolute;
+  top: 0.25rem;
+  right: 0.25rem;
+  width: 1.5rem;
+  box-sizing: border-box;
+  border-radius: 9999px;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #ffffff;
+}
+
+.card > section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.name {
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-align: center;
+}
+
+.mainCard {
+  border-color: transparent;
+}
+
+.mainCard .name {
+  padding: 1rem;
+  background-color: transparent;
+}
+
+.mainCard > section > img {
+  width: 150px;
+  height: 150px;
+}
+
+.mainCard > section {
+  align-items: flex-start;
+}
+
+.mainCard > section > .temp {
+  color: white;
+  padding-top: 2rem;
+}

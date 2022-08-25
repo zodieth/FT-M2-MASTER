@@ -1,0 +1,9 @@
+.searchBar {
+  position: absolute;
+  top: 0px;
+  right: 400px;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+}

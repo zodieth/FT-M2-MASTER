@@ -1,0 +1,6 @@
+.card_weather {
+  position: relative;
+  top: 100px;
+  display: flex;
+  justify-content: center;
+}

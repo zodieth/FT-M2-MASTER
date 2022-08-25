@@ -1,0 +1,58 @@
+.ContainerNav {
+  display: flex;
+  width: 100%;
+  background-color: rgb(87, 87, 87);
+}
+
+.text {
+  position: relative;
+  margin: 10px;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+.SearchBar {
+  bottom: 50px;
+  position: relative;
+  margin: 10px;
+  left: 50px;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+.input {
+  background-color: transparent;
+  color: white;
+  border: solid 1px rgb(255, 255, 255);
+  border-radius: 5px;
+  padding-left: 1rem;
+  margin-right: 0.25rem;
+}
+
+input:focus {
+  outline: none;
+}
+
+.submit {
+  background-color: transparent;
+  color: white;
+  border: solid 1px rgb(255, 255, 255);
+  border-radius: 5px;
+}
+
+.submit:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(87, 87, 87);
+}
+
+::placeholder {
+  color: white;
+}
+
+.logo {
+  margin: 10px;
+  width: 30px;
+  height: 30px;
+}
